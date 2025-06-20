@@ -31,6 +31,8 @@ function init() {
     textContent = document.getElementById('textContent');
     textContent.style.width = w + 'px';
     textContent.style.top = h * .1 + 'px';
+    testimony = document.getElementById('testimony');
+    testimony.style.top = h * .3 + 'px';
 
     // delete all the instances
     if (flowerArray.length > 0) {
