@@ -19,3 +19,19 @@ body {
     color: #FEC5E5;
     font-size: 2.5em;
 }
+
+#testmony {
+    margin-top: 20%;
+    position: absolute;
+    background-color: transparent;
+    z-index: 1;
+    color: #ff628ceb;
+    font-weight: bold;
+    width: 100%;
+}
+
+#testmony p {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}

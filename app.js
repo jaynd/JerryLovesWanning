@@ -30,7 +30,7 @@ function init() {
     timeTogether = document.getElementById('timeTogether');
     textContent = document.getElementById('textContent');
     textContent.style.width = w + 'px';
-    textContent.style.top = (h / 2) - (textContent.clientHeight / 2) + 'px';
+    textContent.style.top = h * .1 + 'px';
 
     // delete all the instances
     if (flowerArray.length > 0) {
